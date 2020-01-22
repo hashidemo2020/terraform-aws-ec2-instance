@@ -54,7 +54,7 @@ module "ec2-instance" {
   instance_type          = "t2.medium"
   key_name               = "Prakash Test"
   monitoring             = true
-  vpc_security_group_ids = [${aws_security_group.lc_security_group.id}]
+  vpc_security_group_ids = [aws_security_group.lc_security_group.id]
   subnet_id              = aws_subnet.main.id
 
   tags = {
