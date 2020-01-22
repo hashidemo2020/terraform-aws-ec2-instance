@@ -26,4 +26,4 @@ curl -v -sk \
 
 
 # Send email to consumers ( all teams using this module )
-# Subject - Hey there is a new module. Sentinel will enforce the module usage
+# Subject - Hey there is a new module. Sentinel will enforce the module usage 
