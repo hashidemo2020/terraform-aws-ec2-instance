@@ -23,3 +23,7 @@ curl -v -sk \
   -H "Content-type: application/vnd.api+json" \
   -H "Authorization: Bearer $TFE_TOKEN" \
   https://app.terraform.io/api/v2/policy-sets/$POLICY_ID/parameters/$VAR_ID
+
+
+# Send email to consumers ( all teams using this module )
+# Subject - Hey there is a new module. Sentinel will enforce the module usage
