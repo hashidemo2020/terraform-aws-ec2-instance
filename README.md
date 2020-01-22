@@ -1,4 +1,4 @@
-# AWS EC2 Instance Terraform module
+# AWS EC2 Instance Terraform module - this is demo
 
 Terraform module which creates EC2 instance(s) on AWS.
 
