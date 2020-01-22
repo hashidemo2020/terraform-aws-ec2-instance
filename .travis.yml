@@ -1,0 +1,4 @@
+language: bash
+if: tag IS present
+script:
+  - ./scripts/pipeline.sh
