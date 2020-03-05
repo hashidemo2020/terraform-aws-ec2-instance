@@ -6,6 +6,11 @@ These types of resources are supported:
 
 * [EC2 instance](https://www.terraform.io/docs/providers/aws/r/instance.html)
 
+## Updates
+
+Assigning public IPs in this context is prohibited.  The `associate_public_ip_address` 
+attribute has been removed in order to enact this policy.
+
 ## Terraform versions
 
 Terraform 0.12. Pin module version to `~> v2.0`. Submit pull-requests to `master` branch.

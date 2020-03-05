@@ -85,11 +85,11 @@ variable "subnet_ids" {
   default     = []
 }
 
-variable "associate_public_ip_address" {
-  description = "If true, the EC2 instance will have associated public IP address"
-  type        = bool
-  default     = null
-}
+#variable "associate_public_ip_address" {
+#  description = "If true, the EC2 instance will have associated public IP address"
+#  type        = bool
+#  default     = null
+#}
 
 variable "private_ip" {
   description = "Private IP address to associate with the instance in a VPC"
